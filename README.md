@@ -79,6 +79,19 @@ On first launch, AITerm will guide you through configuration:
    
 4. **Optional: Set system context**
    - Define how the AI should behave
+   
+   **Recommended system context for optimal performance of all features**
+     "You are an intelligent and helpful assistant. Respond concisely and accurately.\nAlways Always use markdown format for responses, avoid using ``` and the language name if it is        code, and do not use emojis."
+   
+```json
+{
+  "api_url": "https://api.openai.com/v1",
+  "api_key": "your-api-key",
+  "model": "gpt-4",
+  "provider": "OpenAI",
+  "system_context": "You are an intelligent and helpful assistant. Respond concisely and accurately.\nAlways Always use markdown format for responses, avoid using ``` and the language name if it is        code, and do not use emojis."
+}
+```
 
 ## 🎯 Usage
 
