@@ -1,7 +1,7 @@
 # >AITerm
 🖥️ AITerm - Terminal AI Chat for Old-School Hackers 💾
 
-<img width="611" height="186" alt="image" src="https://github.com/user-attachments/assets/5f1e953f-ef9a-437c-a827-b5572add9e53" />
+<img width="616" height="203" alt="image" src="https://github.com/user-attachments/assets/c093511e-e26f-41a0-8db4-9593e4f81349" />
 
 
 
