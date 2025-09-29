@@ -1,0 +1,21 @@
+# Entornos virtuales
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Configuración de IDE
+.idea/
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+
+# Logs
+*.log
