@@ -113,6 +113,7 @@ On first launch, AITerm will guide you through configuration:
 | `/resetcontext` | Reset system prompt |
 | `/config` | View current configuration |
 | `/reconfig` | Reconfigure API settings |
+| `/changeai` | Change AI provider (resets configuration) |
 | `/beep` | Toggle notification beep |
 | `/beepoff` | Disable notification beep |
 | `/testbeep` | Test notification sound |
