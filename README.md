@@ -31,6 +31,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 - **OpenAI** (GPT-3.5, GPT-4, GPT-4o, o1, o3)
 - **Anthropic Claude** (Claude-3, Claude-3.5, Claude Sonnet 4)
 - **DeepSeek** (DeepSeek-Chat, DeepSeek-Coder, DeepSeek-V3)
+- **OpenRouter** (GPT-4, GPT-4o, Claude-3.5-Sonnet, Claude-3-Opus, Gemini-Pro, Llama-3.1-405B, Mistral-Large, DeepSeek-V3, DeepSeek-R1, Qwen-2.5-72B, Command-R+)
 - **Custom APIs** (Any OpenAI-compatible endpoint)
 
 ### 💫 Smart Terminal Experience
