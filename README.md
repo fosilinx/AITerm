@@ -25,7 +25,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 ## ✨ Features
 
 ### Version
-**0.5 Stable Release**
+**0.7 Stable Release**
 
 ### 🌐 Multi-Provider Support
 - **OpenAI** (GPT-3.5, GPT-4, GPT-4o, o1, o3)
