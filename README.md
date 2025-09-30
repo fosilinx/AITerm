@@ -52,10 +52,18 @@ Vintage computing vibes meets cutting-edge AI ✨
 - **Connection Testing** - Verify API connectivity and model availability
 - **Debug Mode** - Detailed timing and process information
 
+
 ## 🚀 Quick Start
 
 ### Installation
 
+#### Option 1: Via pip (Recommended)
+```bash
+pip install aiterm
+aiterm
+```
+
+#### Option 2: From source
 1. **Clone the repository**
    ```bash
    git clone https://github.com/fosilinx/aiterm.git
