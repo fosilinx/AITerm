@@ -1,9 +1,18 @@
 # >AITerm
+
+![CLI](https://img.shields.io/badge/CLI-Tool-4CAF50)
+![AI](https://img.shields.io/badge/AI-Powered-FF6F61)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)
+![Documentation](https://img.shields.io/badge/Documentation-dev-8BC34A)
+![Website](https://img.shields.io/badge/Website-💜-9C27B0)
+![License](https://img.shields.io/badge/License-MIT-00BCD4)
+
+
+
 🖥️ AITerm - Terminal AI Chat for Old-School Hackers 💾
-
-<img width="616" height="203" alt="image" src="https://github.com/user-attachments/assets/c093511e-e26f-41a0-8db4-9593e4f81349" />
-
-
+<div align="center">
+  <img width="616" height="203" alt="image" src="https://github.com/user-attachments/assets/c093511e-e26f-41a0-8db4-9593e4f81349" />
+</div>
 
 Remember when the best tools lived in the terminal? AITerm brings that magic back. A retro-styled terminal interface, powered by Python, that connects you with the most powerful AI models: OpenAI's GPT, Anthropic's Claude, DeepSeek, and any OpenAI-compatible API.
 
