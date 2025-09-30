@@ -11,7 +11,7 @@
 
 🖥️ AITerm - Terminal AI Chat for Old-School Hackers 💾
 <div align="center">
-  <img width="616" height="203" alt="image" src="https://github.com/user-attachments/assets/c093511e-e26f-41a0-8db4-9593e4f81349" />
+  <img width="623" height="160" alt="image" src="https://github.com/user-attachments/assets/08c57873-5d62-48f0-907f-1ab40956180d" />
 </div>
 
 Remember when the best tools lived in the terminal? AITerm brings that magic back. A retro-styled terminal interface, powered by Python, that connects you with the most powerful AI models: OpenAI's GPT, Anthropic's Claude, DeepSeek, and any OpenAI-compatible API.
