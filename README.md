@@ -1,4 +1,4 @@
-exit# >AITerm
+# >AITerm
 
 ![CLI](https://img.shields.io/badge/CLI-Tool-4CAF50)
 ![AI](https://img.shields.io/badge/AI-Powered-FF6F61)
