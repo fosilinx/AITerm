@@ -25,7 +25,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 ## ✨ Features
 
 ### Version
-**0.7 Stable Release**
+**0.9.3 Stable Release**
 
 ### 🌐 Multi-Provider Support
 - **OpenAI** (GPT-3.5, GPT-4, GPT-4o, o1, o3)
@@ -41,6 +41,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 - **Smart Markdown Formatting** - Beautiful headers, lists, tables, and code blocks
 - **Retro Mode** - Clean slate after each response for focused interactions
 - **Table Support** - Clean markdown table rendering with multiple border styles
+- **Stealth Mode** - Minimal UI for distraction-free sessions
 - **Color Toggle** - Enable/disable colored output on the fly
 
 ### ⚡ Developer-Friendly
