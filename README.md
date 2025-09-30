@@ -1,4 +1,4 @@
-# >AITerm
+exit# >AITerm
 
 ![CLI](https://img.shields.io/badge/CLI-Tool-4CAF50)
 ![AI](https://img.shields.io/badge/AI-Powered-FF6F61)
@@ -60,7 +60,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 
 #### Option 1: Via pip (Recommended)
 ```bash
-pip install aiterm
+pip install aiterm-cli
 aiterm
 ```
 
