@@ -60,8 +60,8 @@ Vintage computing vibes meets cutting-edge AI ✨
 
 #### Option 1: Via pip (Recommended)
 ```bash
-pip install AITerm-CLI-cli
-AITerm-CLI
+pip install AITerm-CLI
+aiterm-cli
 ```
 
 #### Option 2: From source
