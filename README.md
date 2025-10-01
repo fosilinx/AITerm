@@ -74,7 +74,6 @@ aiterm-cli
 2. **Install dependencies**
    ```bash
    pip install openai
-   # Optional for better unicode support
    pip install wcwidth
    ```
 
