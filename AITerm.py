@@ -12,7 +12,7 @@ from datetime import datetime
 from math import floor
 
 # Version
-VERSION = "0.9.3"
+VERSION = "0.9.5"
 
 # wcwidth for proper unicode width calculation
 try:
@@ -363,7 +363,7 @@ class LoadingSpinner:
             print(f"\r{' ' * (len(self.message) + 10)}\r", end="", flush=True)
 
 
-class AITerm:
+class AITermCLI:
     def __init__(self, system_prompt=None, beep_enabled=True, logging_enabled=False, debug_mode=False,
                  retro_mode=False, stealth_mode=False):
         self.openai_client = None
@@ -374,11 +374,11 @@ class AITerm:
         self.retro_mode = retro_mode
         self.stealth_mode = stealth_mode
         self.session_log = None
-        self.config_path = "aiterm_config.json"
+        self.config_path = "AITermCLI_config.json"
         self.settings = {}
         self.colors_enabled = True
         self.table_border_style = "box"
-        self._debug_log("Initializing AITerm...")
+        self._debug_log("Initializing AITermCLI...")
         self._load_configuration()
         if system_prompt:
             self.system_prompt = system_prompt
@@ -391,7 +391,7 @@ class AITerm:
         if self.logging_enabled:
             self._debug_log("Initializing session logging...")
             self._setup_session_log()
-        self._debug_log("AITerm initialization complete")
+        self._debug_log("AITermCLI initialization complete")
 
     def _debug_log(self, msg):
         if self.debug_mode:
@@ -945,7 +945,7 @@ class AITerm:
             print("After each AI response, press Enter to continue and start a new conversation.")
 
     def show_version(self):
-        print(f"\nAITerm version {VERSION}")
+        print(f"\nAITermCLI version {VERSION}")
         print("Created by Fosilinx")
         print("AI Terminal - Chat with various AI providers")
 
@@ -1049,17 +1049,17 @@ class AITerm:
 
         if not self.stealth_mode:
             print(BLUE)
-            print(" ███         █████████   █████ ███████████                                   ")
-            print("░░░███      ███░░░░░███ ░░███ ░█░░░███░░░█                                   ")
-            print("  ░░░███   ░███    ░███  ░███ ░   ░███  ░   ██████  ████████  █████████████  ")
-            print("    ░░░███ ░███████████  ░███     ░███     ███░░███░░███░░███░░███░░███░░███ ")
-            print("     ███░  ░███░░░░░███  ░███     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ ")
-            print("   ███░    ░███    ░███  ░███     ░███    ░███░░░   ░███      ░███ ░███ ░███ ")
-            print(" ███░      █████   █████ █████    █████   ░░██████  █████     █████░███ █████")
-            print("░░░       ░░░░░   ░░░░░ ░░░░░    ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ ")
+            print(" ███         █████████   █████ ███████████                                                 █████████  █████       █████")
+            print("░░░███      ███░░░░░███ ░░███ ░█░░░███░░░█                                                ███░░░░░███░░███       ░░███ ")
+            print("  ░░░███   ░███    ░███  ░███ ░   ░███  ░   ██████  ████████  █████████████              ███     ░░░  ░███        ░███ ")
+            print("    ░░░███ ░███████████  ░███     ░███     ███░░███░░███░░███░░███░░███░░███  ██████████░███          ░███        ░███ ")
+            print("     ███░  ░███░░░░░███  ░███     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ ░░░░░░░░░░ ░███          ░███        ░███ ")
+            print("   ███░    ░███    ░███  ░███     ░███    ░███░░░   ░███      ░███ ░███ ░███            ░░███     ███ ░███      █ ░███ ")
+            print(" ███░      █████   █████ █████    █████   ░░██████  █████     █████░███ █████            ░░█████████  ███████████ █████")
+            print("░░░       ░░░░░   ░░░░░ ░░░░░    ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░              ░░░░░░░░░  ░░░░░░░░░░░ ░░░░░ ")
             print(RESET)
             banner_lines = [
-                f"AITerm v{VERSION} by Fosilinx",
+                f"AITermCLI v{VERSION} by Fosilinx",
                 f"Provider: {provider}",
                 f"Model: {model}",
                 f"Beep: {'On' if self.beep_enabled else 'Off'}",
@@ -1075,7 +1075,7 @@ class AITerm:
                 print("║ " + line.ljust(max_width - 1) + "║")
             print(bottom_border)
         else:
-            print(f"AITerm v{VERSION} - Stealth Mode")
+            print(f"AITermCLI v{VERSION} - Stealth Mode")
 
         self._debug_log("Starting chat loop...")
         while True:
@@ -1201,7 +1201,7 @@ def main():
     args = parser.parse_args()
 
     if args.version:
-        print(f"AITerm version {VERSION}")
+        print(f"AITermCLI version {VERSION}")
         print("Created by Fosilinx")
         print("AI Terminal - Chat with various AI providers")
         sys.exit(0)
@@ -1241,7 +1241,7 @@ def main():
         print("Retro answer mode enabled - press Enter after each response to continue")
     if stealth_enabled:
         print("Stealth mode enabled - banners and beep hidden")
-    terminal = AITerm(context, beep_enabled, logging_enabled, debug_enabled, retro_enabled, stealth_enabled)
+    terminal = AITermCLI(context, beep_enabled, logging_enabled, debug_enabled, retro_enabled, stealth_enabled)
     terminal.run_chat_loop()
 
 
