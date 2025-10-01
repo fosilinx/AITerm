@@ -1,4 +1,4 @@
-# >AITerm
+# >AITerm-CLI
 
 ![CLI](https://img.shields.io/badge/CLI-Tool-4CAF50)
 ![AI](https://img.shields.io/badge/AI-Powered-FF6F61)
@@ -9,12 +9,12 @@
 
 
 
-🖥️ AITerm - Terminal AI Chat for Old-School Hackers 💾
+🖥️ AITerm-CLI - Terminal AI Chat for Old-School Hackers 💾
 <div align="center">
   <img width="623" height="160" alt="image" src="https://github.com/user-attachments/assets/08c57873-5d62-48f0-907f-1ab40956180d" />
 </div>
 
-Remember when the best tools lived in the terminal? AITerm brings that magic back. A retro-styled terminal interface, powered by Python, that connects you with the most powerful AI models: OpenAI's GPT, Anthropic's Claude, DeepSeek, and any OpenAI-compatible API.
+Remember when the best tools lived in the terminal? AITerm-CLI brings that magic back. A retro-styled terminal interface, powered by Python, that connects you with the most powerful AI models: OpenAI's GPT, Anthropic's Claude, DeepSeek, and any OpenAI-compatible API.
 
 🕹️ For true command-line devotees - Those old-school developers who prefer vim over VS Code, think GUIs are for rookies, and know that real productivity happens where the cursor blinks.
 ⚡ No breaking your workflow. No annoying windows. Just you, your favorite terminal, and the power of AI one command away.
@@ -25,7 +25,7 @@ Vintage computing vibes meets cutting-edge AI ✨
 ## ✨ Features
 
 ### Version
-**0.9.3 Stable Release**
+**0.9.4 Stable Release**
 
 ### 🌐 Multi-Provider Support
 - **OpenAI** (GPT-3.5, GPT-4, GPT-4o, o1, o3)
@@ -60,15 +60,15 @@ Vintage computing vibes meets cutting-edge AI ✨
 
 #### Option 1: Via pip (Recommended)
 ```bash
-pip install aiterm-cli
-aiterm
+pip install AITerm-CLI-cli
+AITerm-CLI
 ```
 
 #### Option 2: From source
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/fosilinx/aiterm.git
-   cd aiterm
+   git clone https://github.com/fosilinx/AITerm-CLI.git
+   cd AITerm-CLI
    ```
 
 2. **Install dependencies**
@@ -78,20 +78,20 @@ aiterm
    pip install wcwidth
    ```
 
-3. **Run AITerm**
+3. **Run AITerm-CLI**
    ```bash
-   python aiterm.py
+   python AITerm-CLI.py
    ```
 
 ### First Run Setup
 
-On first launch, AITerm will guide you through configuration:
+On first launch, AITerm-CLI will guide you through configuration:
 
 1. **Choose your AI provider**
    - Select from OpenAI, Anthropic, DeepSeek, or custom URL
    
 2. **Enter your API key**
-   - Your key is stored locally in `aiterm_config.json`
+   - Your key is stored locally in `AITerm-CLI_config.json`
    
 3. **Select a model**
    - Browse available models for your provider
@@ -148,37 +148,37 @@ On first launch, AITerm will guide you through configuration:
 
 #### Custom System Context
 ```bash
-python aiterm.py -c "You are a senior Python developer focused on clean, efficient code."
+python AITerm-CLI.py -c "You are a senior Python developer focused on clean, efficient code."
 ```
 
 #### Context from File
 ```bash
-python aiterm.py -cf system_prompt.txt
+python AITerm-CLI.py -cf system_prompt.txt
 ```
 
 #### Enable Session Logging
 ```bash
-python aiterm.py --log
+python AITerm-CLI.py --log
 ```
 
 #### Silent Mode (No Beeps)
 ```bash
-python aiterm.py --no-beep
+python AITerm-CLI.py --no-beep
 ```
 
 #### Retro Mode (Fresh Start After Each Response)
 ```bash
-python aiterm.py --retro
+python AITerm-CLI.py --retro
 ```
 
 #### Debug Mode
 ```bash
-python aiterm.py --debug
+python AITerm-CLI.py --debug
 ```
 
 ## ⚙️ Configuration
 
-AITerm stores configuration in `aiterm_config.json`:
+AITerm-CLI stores configuration in `AITerm-CLI_config.json`:
 
 ```json
 {
@@ -214,7 +214,7 @@ Use `/tablestyle` to toggle between styles.
 
 ### Code Detection
 
-AIterm automatically detects code content and preserves formatting for:
+AITerm-CLI automatically detects code content and preserves formatting for:
 - Programming languages (Python, JavaScript, Java, C++, Go, Rust, etc.)
 - COBOL and legacy languages
 - SQL queries
@@ -272,7 +272,7 @@ For enhanced audio feedback:
 ## 🔧 Command-Line Arguments
 
 ```
-usage: aiterm.py [-h] [-c CONTEXT] [-cf CONTEXT_FILE] [-nb] [-lo] [-d] [-r]
+usage: AITerm-CLI.py [-h] [-c CONTEXT] [-cf CONTEXT_FILE] [-nb] [-lo] [-d] [-r]
 
 AI Terminal - Chat with various AI providers
 
@@ -317,16 +317,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/fosilinx/aiterm/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/fosilinx/aiterm/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/fosilinx/AITerm-CLI/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/fosilinx/AITerm-CLI/discussions)
 
 ## ☕ Support the Project
 
-If AITerm has been helpful in your development workflow, consider buying me a coffee:
+If AITerm-CLI has been helpful in your development workflow, consider buying me a coffee:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/fosilinx)
 
-Your support helps maintain and improve AITerm, add new AI provider integrations, and keep the project actively developed.
+Your support helps maintain and improve AITerm-CLI, add new AI provider integrations, and keep the project actively developed.
 
 ---
 
