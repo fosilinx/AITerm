@@ -12,7 +12,7 @@ from datetime import datetime
 from math import floor
 
 # Version
-VERSION = "0.9.5"
+VERSION = "0.9.5" 
 
 # wcwidth for proper unicode width calculation
 try:
